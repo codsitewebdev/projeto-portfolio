@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="_img/favicon.png" type="image/png">
+    <title>Leandro Miguel | Desenvolvedor Web</title>
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <!-- barra de navegação -->
+
+        <div id="nav">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="_img/logo-dev-02.png" alt="Home-DEV">
+                </a>
+            </div>
+            <div id="fundo">
+                <img src="_img/img-barra-menu-510px.png"></a>
+            </div>
+              
+                <div class="checkbox">      
+                    <input type="checkbox" onclick="abrirMenu()">
+                </div>
+                    
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contato</a></li>
+                        </ul>
+                    
+                
+        </div>
+
+       <!-- barra lateral com botões -->
+
+        <div id="aside">  
+            
+                <button>
+                    <i class="fa-brands fa-github"><a href="#" target="_blank"></a></i>
+                </button><br>
+
+                    <button>
+                        <i class="fa-brands fa-linkedin-in"><a href="#" target="_blank"></a></i>
+                    </button><br>
+                    
+                        <button>
+                            <i class="fa-brands fa-twitter"><a href="#" target="_blank"></a></i>
+                        </button><br>
+
+                            <button>
+                                <i class="fa-brands fa-instagram"><a href="#" target="_blank"></a></i>
+                            </button><br>
+
+                            <button>
+                                <i class="fa-brands fa-behance"><a href="#" target="_blank"></a></i>
+                            </button><br>
+
+                           
+                    
+        </div>    
+
+        <!-- barra de menu lateral direita -->
+
+        <div id="main1">
+            
+            <img src="_img/img-perfil.png">
+                
+                <h1>portfólio</h1>
+                
+        </div>
+
+        <div id="main2">
+            <h2>Oi, sou Leandro Miguel</h2>
+                <p>Sou amante de tecnologia, amo web, amo designer. Estou entrando no mercado<br> de Front-end, realizando alguns trabalhos como freelance. Caso tenha <br>interesse em meu trabalho entre em contato.
+                </p>
+
+        </div>
+
+        <!-- espaços para conteúdo do portfólio -->
+
+        <div id="conteudo1">
+            <h2>Oi, sou Leandro Miguel</h2>
+                <p>Sou amante de tecnologia, amo web, amo designer. Estou entrando no mercado de Front-end, realizando alguns trabalhos como freelance. Caso tenha interesse em meu trabalho entre em contato.</p>
+        </div>
+
+        <div id="conteudo2">
+            <h2>Oi, sou Leandro Miguel</h2>
+                <p>Sou amante de tecnologia, amo web, amo designer. Estou entrando no mercado de Front-end, realizando alguns trabalhos como freelance. Caso tenha interesse em meu trabalho entre em contato.</p>
+        </div>
+
+        <div id="footer">
+          
+            <p><strong>&copy2022 Copyright | Todos os direitos reservados | Dev Leandro Miguel</strong> </p>
+           
+        </div>
+
+    </div>
+
+    <!-- script java -->
+        
+       <script>
+            var menu = document.querySelector('#nav ul');
+            var CheckBox = document.querySelector('.checkbox');
+
+            function abrirMenu(){
+                menu.classList.toggle('open');
+            }
+        </script>
+    
+</body>
+
+</html>
